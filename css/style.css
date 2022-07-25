@@ -434,6 +434,7 @@ img{
 #counting{
   width: 100vw;
   height: max-content;
+  margin-top: -50px;
 }
 
 .count-down{
@@ -995,15 +996,22 @@ img{
   text-align: center;
   background-color: transparent;
   padding: 90px 0 60px 0;
+  background: url("../asset/image/bg-footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
 }
 
 .footer p{
   color: black;
+  padding-bottom: 20px;
 }
 
 .footer a{
   color: black;
   text-decoration: none;
+  padding-bottom: 20px;
 }
 
 /* @media(max-width: 768px){
